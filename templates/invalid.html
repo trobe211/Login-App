@@ -1,0 +1,18 @@
+{% extends "index.html" %}
+
+
+{% block title %}
+Log In
+{% endblock %}
+
+{% block link %}
+action="http://localhost:5000/result"
+{% endblock %}
+
+{% block body %}
+Your username or password is incorrect
+{% endblock %}
+
+{% block redirect %}
+Don't have an account <a href="/register">Click Here</a></p>
+{% endblock %}
