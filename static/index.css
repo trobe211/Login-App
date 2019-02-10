@@ -1,0 +1,57 @@
+.Container {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 275px;
+    margin-top: 5%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Container h2 {
+    background: linear-gradient(lightblue, #c6f1ff);
+    padding-top: 20px;
+    margin-top: 0px;
+    font: normal 60px 'Encode Sans Condensed';
+    padding-bottom: 0px;
+    border-bottom: 2px black solid;
+    padding-left: 5px;
+}
+
+.Container input[type="submit"] {
+    text-align: center;
+    background-color: powderblue;
+    font: 30px 'Encode Sans Condensed';
+    margin-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px darkslategrey solid;
+}
+
+.Container input[type="submit"]:hover {
+  background: linear-gradient(#bfeff5, #b7e7ed);
+}
+
+#button {
+    text-align: center;
+    padding-top: 5px;
+}
+
+form {
+    padding-left: 5px;
+    font: 30px 'Encode Sans Condensed';
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+ p {
+     font: 20px red 'Encode Sans Condensed';
+     padding-left: 5px;
+     padding-bottom: 0.1px;
+}
+
+ body {
+     background-color: #ebebeb;
+ }
